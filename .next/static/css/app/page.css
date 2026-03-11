@@ -1,0 +1,537 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Countdown.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Countdown_wrap__KERw9 {
+  margin-bottom: 52px;
+  animation: Countdown_fadeUp__ye9XJ 0.8s ease 0.68s both;
+}
+
+.Countdown_label__migFG {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.Countdown_cd__CeUST {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.Countdown_block__5twU7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.Countdown_num__jAdj_ {
+  font-family: var(--font-d);
+  font-size: clamp(40px, 6.5vw, 66px);
+  font-weight: 800;
+  line-height: 1;
+  background: linear-gradient(135deg, #fff 30%, rgba(255, 107, 53, 0.55));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  min-width: 70px;
+  text-align: center;
+}
+
+.Countdown_unit__dpjVp {
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.Countdown_sep__kkW6F {
+  font-family: var(--font-d);
+  font-size: 50px;
+  font-weight: 800;
+  color: rgba(255, 107, 53, 0.35);
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+.Countdown_live__v23kK {
+  font-family: var(--font-d);
+  font-size: clamp(22px, 4vw, 32px);
+  font-weight: 800;
+  color: var(--orange);
+}
+
+@keyframes Countdown_fadeUp__ye9XJ {
+  from { opacity: 0; transform: translateY(32px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 560px) {
+  .Countdown_sep__kkW6F { display: none; }
+  .Countdown_num__jAdj_ { min-width: 52px; }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Navbar.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_nav__yFFPE {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 18px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, rgba(12, 12, 12, 0.92) 0%, transparent);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  animation: Navbar_slideDown__fvtmo 0.8s ease both;
+}
+
+@keyframes Navbar_slideDown__fvtmo {
+  from { opacity: 0; transform: translateY(-18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.Navbar_logo__X4o9i {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.Navbar_badge__s7CES {
+  font-family: var(--font-d);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--orange);
+  padding: 7px 16px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 107, 53, 0.3);
+  background: rgba(255, 107, 53, 0.07);
+}
+
+@media (max-width: 560px) {
+  .Navbar_nav__yFFPE { padding: 14px 18px; }
+  .Navbar_logo__X4o9i { height: 32px; }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Hero.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Hero_pills__7AB_X {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  justify-content: center;
+  margin-bottom: 52px;
+  animation: Hero_fadeUp__gNdHk 0.8s ease 0.62s both;
+}
+
+.Hero_pill__nvVkv {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 18px;
+  border-radius: 100px;
+  font-size: 12.5px;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  transition: all 0.28s ease;
+  cursor: default;
+}
+
+.Hero_pill__nvVkv:hover {
+  border-color: rgba(255, 107, 53, 0.38);
+  background: rgba(255, 107, 53, 0.07);
+  transform: translateY(-2px);
+}
+
+@keyframes Hero_fadeUp__gNdHk {
+  from { opacity: 0; transform: translateY(32px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Footer.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__pQtti {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 28px 24px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.Footer_footer__pQtti a {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+.Footer_footer__pQtti a:hover {
+  text-decoration: underline;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.page_glowTop__nu3DT {
+  position: fixed;
+  top: -300px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: 700px;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(
+    ellipse at center top,
+    rgba(255, 107, 53, 0.13) 0%,
+    rgba(247, 201, 72, 0.06) 35%,
+    transparent 68%
+  );
+  animation: page_breathe__ndVdH 7s ease-in-out infinite;
+}
+
+.page_glowBl__WBq_V {
+  position: fixed;
+  bottom: -200px;
+  left: -150px;
+  width: 600px;
+  height: 600px;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(
+    circle,
+    rgba(33, 150, 196, 0.07) 0%,
+    transparent 65%
+  );
+  animation: page_breathe__ndVdH 9s ease-in-out infinite reverse;
+}
+
+@keyframes page_breathe__ndVdH {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.5; }
+}
+
+.page_page__556_G {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 110px 24px 60px;
+}
+
+.page_hero__7KFOs {
+  text-align: center;
+  max-width: 820px;
+  width: 100%;
+}
+
+.page_heroLogo__404nZ {
+  width: min(340px, 78vw);
+  margin: 0 auto 44px;
+  display: block;
+  filter: drop-shadow(0 0 50px rgba(255, 107, 53, 0.22));
+  animation: page_logoIn___bWCI 1.3s cubic-bezier(0.16, 1, 0.3, 1) 0.05s both;
+}
+
+@keyframes page_logoIn___bWCI {
+  from {
+    opacity: 0;
+    transform: scale(0.82) translateY(24px);
+    filter: drop-shadow(0 0 0 rgba(255, 107, 53, 0));
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: drop-shadow(0 0 50px rgba(255, 107, 53, 0.22));
+  }
+}
+
+.page_eyebrow__yxIK8 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 22px;
+  animation: page_fadeUp__aNNvE 0.8s ease 0.35s both;
+}
+
+.page_dot__aVcaO {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--orange);
+  display: inline-block;
+  animation: page_blink__MXDOE 2s ease-in-out infinite;
+}
+
+@keyframes page_blink__MXDOE {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.15; }
+}
+
+.page_headline__b1Dvh {
+  font-family: var(--font-d);
+  font-size: clamp(44px, 7.5vw, 88px);
+  font-weight: 800;
+  line-height: 0.96;
+  letter-spacing: -0.035em;
+  margin-bottom: 26px;
+  animation: page_fadeUp__aNNvE 0.8s ease 0.45s both;
+}
+
+.page_l1__cQNgU {
+  display: block;
+  color: var(--text);
+}
+
+.page_l2__5nB3g {
+  display: block;
+  background: linear-gradient(92deg, var(--orange) 0%, var(--yellow) 48%, var(--green) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page_sub__0BWS6 {
+  font-size: clamp(15px, 2vw, 19px);
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--muted);
+  max-width: 500px;
+  margin: 0 auto 48px;
+  animation: page_fadeUp__aNNvE 0.8s ease 0.55s both;
+}
+
+.page_divLine__aBpvz {
+  width: 100%;
+  max-width: 540px;
+  height: 1px;
+  margin: 0 auto 44px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--border),
+    var(--border),
+    transparent
+  );
+  animation: page_fadeUp__aNNvE 0.8s ease 0.82s both;
+}
+
+@keyframes page_fadeUp__aNNvE {
+  from { opacity: 0; transform: translateY(32px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 560px) {
+  .page_glowTop__nu3DT { width: 100vw; }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/NotifyForm.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.NotifyForm_wrap__fW7Fs {
+  margin-bottom: 60px;
+  animation: NotifyForm_fadeUp__Y2kix 0.8s ease 0.75s both;
+}
+
+.NotifyForm_box__YJdS8 {
+  display: flex;
+  max-width: 450px;
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 5px;
+  transition: border-color 0.3s;
+}
+
+.NotifyForm_box__YJdS8:focus-within {
+  border-color: rgba(255, 107, 53, 0.45);
+}
+
+.NotifyForm_boxErr__JpMzm {
+  border-color: rgba(239, 68, 68, 0.5) !important;
+}
+
+.NotifyForm_input__p1C69 {
+  flex: 1 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--text);
+  font-size: 13.5px;
+  padding: 10px 18px;
+}
+
+.NotifyForm_input__p1C69::placeholder {
+  color: var(--muted);
+}
+
+.NotifyForm_input__p1C69:disabled {
+  opacity: 0.6;
+}
+
+.NotifyForm_btn__tRjyL {
+  background: linear-gradient(135deg, #FF6B35, #d94f0a);
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  font-family: var(--font-d);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 11px 26px;
+  cursor: pointer;
+  transition: all 0.28s ease;
+  white-space: nowrap;
+}
+
+.NotifyForm_btn__tRjyL:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 8px 26px rgba(255, 107, 53, 0.32);
+}
+
+.NotifyForm_btn__tRjyL:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.NotifyForm_btn__tRjyL:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.NotifyForm_ok__ZcZE8 {
+  color: #4CAF50;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.NotifyForm_err__hcGY9 {
+  color: #EF4444;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@keyframes NotifyForm_fadeUp__Y2kix {
+  from { opacity: 0; transform: translateY(32px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 560px) {
+  .NotifyForm_box__YJdS8 {
+    flex-direction: column;
+    border-radius: 14px;
+  }
+  .NotifyForm_btn__tRjyL {
+    border-radius: 10px;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Particles.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Particles_container__dpKle {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.Particles_pt__I3fLB {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0;
+  animation: Particles_floatup__k3wMC linear infinite;
+}
+
+@keyframes Particles_floatup__k3wMC {
+  0%   { transform: translateY(105vh) scale(0); opacity: 0; }
+  8%   { opacity: 0.8; }
+  88%  { opacity: 0.3; }
+  100% { transform: translateY(-5vh) scale(1.2); opacity: 0; }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/SocialLinks.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.SocialLinks_wrap__rIHJV {
+  text-align: center;
+  animation: SocialLinks_fadeUp__SYde_ 0.8s ease 0.88s both;
+}
+
+.SocialLinks_label__1JDM5 {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.SocialLinks_row__tK0JZ {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.SocialLinks_link__E_2mV {
+  width: 44px;
+  height: 44px;
+  border-radius: 11px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  text-decoration: none;
+  transition: all 0.28s ease;
+}
+
+.SocialLinks_link__E_2mV:hover {
+  border-color: rgba(255, 107, 53, 0.38);
+  color: var(--orange);
+  background: rgba(255, 107, 53, 0.07);
+  transform: translateY(-3px);
+}
+
+.SocialLinks_icon__QNYxd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SocialLinks_icon__QNYxd svg {
+  width: 17px;
+  height: 17px;
+}
+
+@keyframes SocialLinks_fadeUp__SYde_ {
+  from { opacity: 0; transform: translateY(32px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+

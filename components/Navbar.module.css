@@ -1,0 +1,41 @@
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 18px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, rgba(12, 12, 12, 0.92) 0%, transparent);
+  backdrop-filter: blur(12px);
+  animation: slideDown 0.8s ease both;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.badge {
+  font-family: var(--font-d);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--orange);
+  padding: 7px 16px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 107, 53, 0.3);
+  background: rgba(255, 107, 53, 0.07);
+}
+
+@media (max-width: 560px) {
+  .nav { padding: 14px 18px; }
+  .logo { height: 32px; }
+}

@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --orange:   #FF6B35;
+  --yellow:   #F7C948;
+  --blue:     #2196C4;
+  --green:    #4CAF50;
+  --dark:     #0C0C0C;
+  --surface:  #181818;
+  --surface2: #202020;
+  --border:   rgba(255, 255, 255, 0.07);
+  --text:     #F2EEE8;
+  --muted:    rgba(242, 238, 232, 0.42);
+  --font-d:   var(--font-syne), sans-serif;
+  --font-b:   var(--font-dm), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--dark);
+  color: var(--text);
+  font-family: var(--font-b);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Noise overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  opacity: 0.5;
+}
+
+input, button {
+  font-family: var(--font-b);
+}
